@@ -135,7 +135,7 @@ git remote -v
 You should see both `origin` (your fork) and `upstream` (the original repo).
 
 ### Step 4: Create a New Branch for Your Work
-Never work directly on the `master` branch! Always create a new branch:
+Never work directly on the `main` branch! Always create a new branch:
 
 ```bash
 git checkout -b my-first-contribution
@@ -220,7 +220,7 @@ Here's a visual representation of the contribution workflow:
    GitHub → Your Computer
 
 3. Create a branch
-   master → your-feature-branch
+   main → your-feature-branch
 
 4. Make changes and commit
    Edit files → git add → git commit
@@ -267,10 +267,10 @@ git diff
 git fetch upstream
 
 # Merge upstream changes into your current branch
-git merge upstream/master
+git merge upstream/main
 
 # Or do both in one command
-git pull upstream master
+git pull upstream main
 ```
 
 ### Undoing Changes
@@ -298,7 +298,7 @@ git show
 **Problem**: Your changes conflict with changes made by someone else.
 
 **Solution**:
-1. Pull the latest changes: `git pull upstream master`
+1. Pull the latest changes: `git pull upstream main`
 2. Git will mark the conflicts in your files
 3. Open the conflicted files and look for markers like `<<<<<<<`, `=======`, `>>>>>>>`
 4. Edit the file to resolve the conflict
@@ -306,20 +306,20 @@ git show
 6. Save the file
 7. Stage and commit: `git add filename`, then `git commit -m "Resolve merge conflict"`
 
-### Issue 3: Accidentally Committed to Master Branch
+### Issue 3: Accidentally Committed to Main Branch
 
-**Problem**: You made changes directly on master instead of a feature branch.
+**Problem**: You made changes directly on main instead of a feature branch.
 
 **Solution**:
 ```bash
 # Create a new branch with your current changes
 git checkout -b my-new-branch
 
-# Switch back to master
-git checkout master
+# Switch back to main
+git checkout main
 
-# Reset master to match upstream
-git reset --hard upstream/master
+# Reset main to match upstream
+git reset --hard upstream/main
 ```
 
 ### Issue 4: Forgot to Pull Before Making Changes
@@ -332,7 +332,7 @@ git reset --hard upstream/master
 git stash
 
 # Pull the latest changes
-git pull upstream master
+git pull upstream main
 
 # Reapply your changes
 git stash pop
