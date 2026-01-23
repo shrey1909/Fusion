@@ -16,6 +16,8 @@
 
 ## Contributing Guidelines
 
+**New to GitHub?** 🌟 Check out our [GitHub Beginner's Guide](./GITHUB_GUIDE.md) for a step-by-step walkthrough on how to use GitHub and make your first contribution!
+
 For contributing to this repository, you have to follow the guidelines given in [CONTRIBUTING.md](./CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) for smooth workflow of contributions and changes inside repository.
 
 ## How to get started
