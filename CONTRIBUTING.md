@@ -2,6 +2,8 @@
 
 ## New contributor guide
 
+**Complete Beginner to GitHub?** 🚀 Start with our [GitHub Beginner's Guide](./GITHUB_GUIDE.md) which covers everything from setting up Git to making your first pull request!
+
 To get an overview of the project, go through the [README](README.md). Here are some resources to help you get started with open source contributions:
 
 - [Set up Git](https://docs.github.com/en/get-started/quickstart/set-up-git)
