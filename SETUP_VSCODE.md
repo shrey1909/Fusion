@@ -28,6 +28,8 @@ Make sure the following are installed on your system before proceeding.
 
 ### Python 3.8
 
+> **Note:** The project currently targets Python 3.8. If Python 3.8 is unavailable on your system, Python 3.9 or 3.10 should also work, but 3.8 is the tested version.
+
 - **Ubuntu/Debian:**
   ```bash
   sudo apt update
@@ -319,6 +321,8 @@ docker-compose down
 
 4. Set breakpoints by clicking in the gutter next to any line number.
 5. Press `F5` to start the server in debug mode.
+
+> **Note:** Make sure your VS Code Python extension is up-to-date for the `debugpy` launcher to work correctly.
 
 ---
 
