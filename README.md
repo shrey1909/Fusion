@@ -14,6 +14,10 @@
 * Python `3.8`
 * Git
 
+## VS Code Setup Guide
+
+For a detailed, step-by-step guide on setting up this project locally using **Visual Studio Code**, see **[SETUP_VSCODE.md](./SETUP_VSCODE.md)**.
+
 ## Contributing Guidelines
 
 For contributing to this repository, you have to follow the guidelines given in [CONTRIBUTING.md](./CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) for smooth workflow of contributions and changes inside repository.
